@@ -1,0 +1,188 @@
+{
+    "key": "group_650b050407a9e",
+    "title": "Developer Settings | Clone Fields",
+    "fields": [
+        {
+            "key": "field_650b8f361f457",
+            "label": "Instructions:",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "The fields in this section are not intended for use.\r\n\r\nFields in this section are intended to be cloned to other field groups to prevent creating duplicate fields.\r\n\r\nMaking changes in this page will have no effect on the front-end. \r\n\r\n<strong>Do not use these fields.<\/strong>",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_650b0504d958f",
+            "label": "Container Style",
+            "name": "container_style",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "<p>Choose the container style for the layout. Responsive containers are full-width until the page reaches it's respective breakpoint.<\/p>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "no-container": "No Container",
+                "container": "Default Container",
+                "container-fluid": "Full-Width Container",
+                "container-sm": "Small Container",
+                "container-md": "Medium Container",
+                "container-lg": "Large Container",
+                "container-xl": "Extra Large Container",
+                "container-xxl": "XXL Container"
+            },
+            "default_value": "container",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_650b822517078",
+            "label": "Position Style",
+            "name": "position_style",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "<p>Additional classes and custom styles may be required depending on style chosen. Check <a href=\"https:\/\/getbootstrap.com\/docs\/5.3\/utilities\/position\/#position-values\" target=\"_blank\">Bootstrap<\/a> documentation for further info.<\/p>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "fixed-top": "Fixed-Top",
+                "fixed-bottom": "Fixed-Bottom",
+                "sticky-top": "Sticky-Top",
+                "sticky-bottom": "Sticky-Bottom",
+                "position-static": "Static",
+                "position-relative": "Relative",
+                "position-absolute": "Absolute",
+                "position-fixed": "Fixed",
+                "position-sticky": "Sticky"
+            },
+            "default_value": "fixed-top",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_651140b6ee611",
+            "label": "Section ID",
+            "name": "section_id",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Enter a unique ID, ID is used to target section to enable custom scripts.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_655779c45fc74",
+            "label": "Use Slick",
+            "name": "use_slick",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Slick is a JavaScript library to convert a normal container to a slider.\r\n<br><br>\r\nFull documentation can be found at the <a href=\"https:\/\/kenwheeler.github.io\/slick\/\" target=\"_blank\">Slick website<\/a>.\r\n<br><br>\r\nCan't be used with Isotope at the same time.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_655b1da3114a7",
+            "label": "Use Isotope?",
+            "name": "use_isotope",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Isotope is a JavaScript library to convert a normal container to a filter\/sort layout.\r\n<br><br>\r\nFull documentation can be found at the <a href=\"https:\/\/isotope.metafizzy.co\/\" target=\"_blank\">Isotope website<\/a>.\r\n<br><br>\r\nCan't be used with Slick at the same time.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_656484317b1f1",
+            "label": "Custom CSS Classes",
+            "name": "custom_css_classes",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Add custom CSS classes as required.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "e.g. px-0 my-3 my-lg-5 container",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "developer-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1701086333
+}

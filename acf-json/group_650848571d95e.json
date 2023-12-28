@@ -1,0 +1,573 @@
+{
+    "key": "group_650848571d95e",
+    "title": "Theme Settings",
+    "fields": [
+        {
+            "key": "field_650866749ba0e",
+            "label": "Block Editor",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_65084857a6640",
+            "label": "Disable Block Editor?",
+            "name": "disable_block_editor",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "<p>Disabling the Block Editor will use a custom <em><a href=\"https:\/\/www.advancedcustomfields.com\/resources\/flexible-content\/\" target=\"_blank\">Flexible Content<\/a><\/em> for layouts and content.<\/p>\r\n<p>Enabling the Block Editor will use <em><a href=\"https:\/\/developer.wordpress.org\/block-editor\/\" target=\"_blank\">Gutenberg Blocks<\/a><\/em> for page layouts and content.<\/p>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_650b7d08a5f40",
+            "label": "Header",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_650b82d981708",
+            "label": "Header",
+            "name": "header",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_650b822517078"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 1,
+            "prefix_name": 1
+        },
+        {
+            "key": "field_650b7d1be3aed",
+            "label": "Header",
+            "name": "header",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_650b0504d958f"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 1,
+            "prefix_name": 1
+        },
+        {
+            "key": "field_650978ab6954e",
+            "label": "Logos",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_650978b96954f",
+            "label": "Logo",
+            "name": "logo_main",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_650978d669550",
+            "label": "Alternative Logo",
+            "name": "logo_alt",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_650952aa1de27",
+            "label": "Offcanvas Settings",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_650952bd1de28",
+            "label": "Offcanvas Position",
+            "name": "offcanvas_position",
+            "aria-label": "",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "offcanvas-top": "Top",
+                "offcanvas-end": "Right",
+                "offcanvas-bottom": "Bottom",
+                "offcanvas-start": "Left"
+            },
+            "default_value": "offcanvas-end",
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_6509823106eea",
+            "label": "Offcanvas Width",
+            "name": "offcanvas_width",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "Full-Width",
+            "ui_off_text": "Normal",
+            "ui": 1
+        },
+        {
+            "key": "field_6509825d06eeb",
+            "label": "Offcanvas Height",
+            "name": "offcanvas_height",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "Full-Height",
+            "ui_off_text": "Normal",
+            "ui": 1
+        },
+        {
+            "key": "field_650956640245f",
+            "label": "Hamburger Breakpoint",
+            "name": "hamburger_breakpoint",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "d-block d-sm-none": "Show on Extra-small only",
+                "d-block d-md-none": "Show on Small and down",
+                "d-block d-lg-none": "Show on Medium and down",
+                "d-block d-xl-none": "Show on Large and down",
+                "d-block d-xxl-none": "Show on Extra Large and down",
+                "d-block": "Visible on all"
+            },
+            "default_value": "d-block d-xl-none",
+            "return_format": "label",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_650b87e2a6e94",
+            "label": "Footer",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_650b8800a6e95",
+            "label": "Footer",
+            "name": "footer",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "field_650b0504d958f"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 1,
+            "prefix_name": 1
+        },
+        {
+            "key": "field_650868b7a38e9",
+            "label": "Brand Colours",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_650868c3a38ea",
+            "label": "Colours",
+            "name": "colours",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Colour",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_650868d6a38eb",
+                    "label": "Name",
+                    "name": "name",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_650868c3a38ea"
+                },
+                {
+                    "key": "field_650868e2a38ec",
+                    "label": "Colour",
+                    "name": "colour",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "enable_opacity": 1,
+                    "return_format": "string",
+                    "parent_repeater": "field_650868c3a38ea"
+                }
+            ]
+        },
+        {
+            "key": "field_650869046fc36",
+            "label": "Colour Select",
+            "name": "colour_select",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_65084857a6640",
+                        "operator": "==",
+                        "value": "1"
+                    },
+                    {
+                        "field": "field_65084857a6640",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "rgb(221,51,51)": "Red",
+                "rgb(129,215,66)": "Green",
+                "rgb(30,115,190)": "Blue",
+                "rgb(130,36,227)": "Purple"
+            },
+            "default_value": false,
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6551e0db8b9eb",
+            "label": "Spinners and Loaders",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_6551e0f08b9ec",
+            "label": "Include Loader?",
+            "name": "include_loader",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_6551e10f8b9ed",
+            "label": "Loader Custom CSS",
+            "name": "loader_custom_css",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Add custom CSS for the Loader, examples are taken from this page: <a href=\"https:\/\/cssloaders.github.io\/\" target=\"_blank\">https:\/\/cssloaders.github.io\/<\/a>.\r\n<br><br>\r\nCopy\/past the CSS style you want to use then update with brand colours.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6551e0f08b9ec",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 12,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_655b70bad0190",
+            "label": "Comments",
+            "name": "",
+            "aria-label": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_655b70c8d0191",
+            "label": "Disable Comments",
+            "name": "disable_comments",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Disable Comments programmatically for the entire website?",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1700491503
+}

@@ -1,0 +1,8 @@
+#login h1 a, .login h1 a {
+	background-image: url(../img/logo/logo.svg);
+	height:65px;
+	width:100%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent:-9999px;
+}  

@@ -1,0 +1,11 @@
+.button-group {
+	button {
+		transition: all 400ms ease;
+
+		&:hover,
+		&.is-checked {
+			color: white;
+			background-color: black;
+		}
+	}
+}

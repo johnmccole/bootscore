@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+	font: 300 1rem/1.5 'Poppins', sans-serif;
+}
+
+/* Highlight 'SCF Pro' in Admin */ 
+#adminmenu a[class*="acf"] {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+#adminmenu a[class*="acf"],
+#adminmenu a[class*="acf"] .dashicons-before:before {
+	color: #00c69e !important;
+}
+#adminmenu a[class*="acf"] .wp-menu-name {
+	padding: 8px 8px 8px 0;
+}
+#adminmenu a[class*="acf"] .wp-menu-name:after {
+	font-family: dashicons;
+	content: "PRO \f14c";
+	display: inline-block;
+	margin: 0 0 0 0.25rem;
+}
