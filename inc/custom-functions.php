@@ -109,8 +109,31 @@ if( function_exists('acf_add_options_page') ) {
     add_filter('gutenberg_can_edit_post', '__return_false', 5);
     add_filter('use_block_editor_for_post', '__return_false', 5);
   } else {
+
+    // De-Register all Core Blocks.
+    if(get_field('de_register_core_blocks', 'option')) {
+      function remove_default_blocks($allowed_blocks){
+   
+          // Get all registered blocks
+          $registered_blocks = WP_Block_Type_Registry::get_instance()->get_all_registered();
+          
+          // Remove all blocks that are prefixed with core/
+          $filtered_blocks = array();
+          foreach($registered_blocks as $block) {
+           
+            if(strpos($block->name , 'core/') === false) { 
+              array_push($filtered_blocks, $block->name);
+            }
+          }
+          
+          return $filtered_blocks;
+      }
+       
+      add_filter('allowed_block_types', 'remove_default_blocks');
+    }
+    
     // Block functions
-    require_once( get_stylesheet_directory_uri() . '/blocks/block-functions.php' );
+    require_once( dirname(__FILE__).'/../blocks/block-functions.php' );
 
     // Add after theme setup
     add_action( 'after_setup_theme', function () {

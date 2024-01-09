@@ -906,7 +906,9 @@
                             "max_size": "",
                             "mime_types": "",
                             "insert": "append",
-                            "preview_size": "medium"
+                            "preview_size": "medium",
+                            "placement": "top",
+                            "endpoint": 0
                         },
                         {
                             "key": "field_65648531b9704",
@@ -955,7 +957,7 @@
                                 "id": ""
                             },
                             "post_type": [
-                                "gloabal_layouts"
+                                "global_layouts"
                             ],
                             "post_status": [
                                 "publish"
@@ -1955,24 +1957,14 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "post"
+                "value": "page"
             }
         ],
         [
             {
                 "param": "post_type",
-                "operator": "!=",
+                "operator": "==",
                 "value": "post"
-            },
-            {
-                "param": "post_type",
-                "operator": "!=",
-                "value": "gloabal_layouts"
-            },
-            {
-                "param": "page_type",
-                "operator": "!=",
-                "value": "posts_page"
             }
         ]
     ],
@@ -1987,5 +1979,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1701086707
+    "modified": 1704841098
 }

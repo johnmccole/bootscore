@@ -41,6 +41,26 @@
             "ui": 1
         },
         {
+            "key": "field_659dcbe761174",
+            "label": "De-Register Core Blocks?",
+            "name": "de_register_core_blocks",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Remove all Core Blocks? Leaves only custom blocks and those added by plugins.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
             "key": "field_650b7d08a5f40",
             "label": "Header",
             "name": "",
@@ -432,12 +452,7 @@
                 "class": "",
                 "id": ""
             },
-            "choices": {
-                "rgb(221,51,51)": "Red",
-                "rgb(129,215,66)": "Green",
-                "rgb(30,115,190)": "Blue",
-                "rgb(130,36,227)": "Purple"
-            },
+            "choices": [],
             "default_value": false,
             "return_format": "array",
             "multiple": 0,
@@ -569,5 +584,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1700491503
+    "modified": 1704840251
 }
